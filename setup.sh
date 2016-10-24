@@ -1,5 +1,6 @@
 git config --global user.name "wyongfei"
 git config --global user.email wyongfei@163.com
+sudo add-apt-repository ppa:jonathonf/vim
 sudo apt-get update
 sudo apt-get upgrade
 sudo apt-get install gnome-session-fallback
