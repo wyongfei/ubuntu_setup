@@ -4,4 +4,7 @@ sudo apt-get update
 sudo apt-get upgrade
 sudo apt-get install gnome-session-fallback
 sudo apt-get install vim
-curl https://raw.githubusercontent.com/wyongfei/spf13-vim/3.0/bootstrap.sh -L > spf13-vim.sh && sh spf13-vim.sh
+sudo apt-get install build-essential cmake
+sudo apt-get install python-dev python3-dev
+./spf13-vim.sh
+~/.vim/bundle/YouCompleteMe/install.py --clang-completer
