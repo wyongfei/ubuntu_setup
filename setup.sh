@@ -5,6 +5,7 @@ sudo apt-get update
 sudo apt-get upgrade
 #sudo apt-get install gnome-session-fallback
 sudo apt-get install vim-nox-py2
+sudo apt-get install ssh
 sudo apt-get install build-essential cmake
 sudo apt-get install python-dev python3-dev
 #sudo apt install vim-nox-py2
