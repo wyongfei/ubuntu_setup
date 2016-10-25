@@ -9,4 +9,4 @@ sudo apt-get install build-essential cmake
 sudo apt-get install python-dev python3-dev
 sudo apt install vim-nox-py2
 ./spf13-vim.sh
-~/.vim/bundle/YouCompleteMe/install.py --clang-completer
+#~/.vim/bundle/YouCompleteMe/install.py --clang-completer
