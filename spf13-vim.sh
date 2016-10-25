@@ -17,7 +17,7 @@
 ############################  SETUP PARAMETERS
 app_name='spf13-vim'
 [ -z "$APP_PATH" ] && APP_PATH="$HOME/.spf13-vim-3"
-[ -z "$REPO_URI" ] && REPO_URI='https://github.com/wyongfei/spf13-vim.git'
+[ -z "$REPO_URI" ] && REPO_URI='https://github.com/spf13/spf13-vim.git'
 [ -z "$REPO_BRANCH" ] && REPO_BRANCH='3.0'
 debug_mode='0'
 fork_maintainer='0'
@@ -56,7 +56,6 @@ program_exists() {
 
     return 0
 }
-
 program_must_exist() {
     program_exists $1
 
